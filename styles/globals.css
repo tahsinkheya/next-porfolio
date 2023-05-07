@@ -110,13 +110,14 @@ a {
 }
 
 .sidebar {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   width: 20%;
   height: 100vh;
   background-color: transparent;
   opacity: 0.5;
+  margin-top: 300px;
   z-index: 1000;
 }
 

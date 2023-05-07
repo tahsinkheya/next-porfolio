@@ -30,20 +30,10 @@ const About = () => {
       <div className=" grid place-items-center md:grid place-items-left ">
         <img
           src={
-            "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/Screenshot_20230314_124420_Instagram.jpg"
+            "https://s3.brilliant.com.bdh/tahsin/kheyaPortfolio/Screenshot_20230314_124420_Instagram.jpg"
           }
           className="h-[400px] w-[312px] rounded-lg"
         />
-        <div className="col-span-1">
-          <RoughNotation type="underline" show={true}>
-            Hello RoughNotation
-          </RoughNotation>
-          <RoughNotationGroup show={true}>
-            <RoughNotation type="underline">Hello,</RoughNotation>
-            <RoughNotation type="underline">This is</RoughNotation>
-            <RoughNotation type="underline">a Test</RoughNotation>
-          </RoughNotationGroup>
-        </div>
       </div>
     </div>
   );
