@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
 import Experience from "../components/Experience";
+import Education from "../components/Education";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -58,6 +59,7 @@ export default function Home() {
             {" "}
             <Navbar />
             <About />
+            <Education />
             <Experience />
             {/* <Footer /> */}
             {window.innerWidth < 1060 ? <Footer /> : <Sidebar />}

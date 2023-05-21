@@ -10,9 +10,9 @@ const About = () => {
         <p className="py-5 text-3xl  ">
           <RoughNotationGroup show={window.innerWidth < 1060 ? false : true}>
             I take pleasure in crafting{" "}
-            <RoughNotation type="highlight" color="#a86561" order="1">
-              uncomplicated yet elegant
-            </RoughNotation>{" "}
+            {/* <RoughNotation type="highlight" color="#a86561" order="1"> */}
+            uncomplicated yet elegant
+            {/* </RoughNotation>{" "} */}
             creations for both business and individual use. I'm constantly
             looking for opportunities to apply my expertise in{" "}
             <RoughNotation type="highlight" color="#c09591" order="2">
