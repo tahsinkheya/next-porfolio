@@ -1,6 +1,9 @@
 import { FiGitlab, FiMail } from "react-icons/fi";
 import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
-
+import { GrReactjs, GrDocker } from "react-icons/gr";
+import { TbBrandTailwind } from "react-icons/tb";
+import { SiNextdotjs } from "react-icons/si";
+import { IoLogoJavascript, IoLogoDocker, IoLogoPython } from "react-icons/io";
 export const contact = [
   { id: 1, icon: <FiGitlab />, link: "https://gitlab.com/tkhe19" },
   { id: 2, icon: <BsGithub />, link: "https://github.com/tahsinkheya" },
@@ -240,5 +243,53 @@ export const work = [
       "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/admin-portal.gif",
     subtitle:
       "I enhanced the user interface (UI) and user experience (UX) of specific sections within the admin portal utilized by Brilliant Cloud. This involved redesigning those areas to make them more visually appealing and user-friendly. Additionally, I restructured the codebase, eliminating instances of duplicated code to improve maintainability and efficiency.",
+  },
+];
+
+export const skills = [
+  { name: "React.js", logo: <GrReactjs className="icon"></GrReactjs> },
+  {
+    name: "JavaScript",
+    logo: <IoLogoJavascript className="icon"></IoLogoJavascript>,
+  },
+  {
+    name: "Docker",
+    logo: <GrDocker className="icon"></GrDocker>,
+  },
+  {
+    name: "Python",
+    logo: <IoLogoPython className="icon"></IoLogoPython>,
+  },
+  {
+    name: "Tailwind",
+    logo: <TbBrandTailwind className="icon"></TbBrandTailwind>,
+  },
+  {
+    name: "Next.js",
+    logo: <GrDocker className="icon"></GrDocker>,
+  },
+  {
+    name: "Java",
+    logo: <GrDocker className="icon"></GrDocker>,
+  },
+  {
+    name: "CSS",
+    logo: <GrDocker className="icon"></GrDocker>,
+  },
+  {
+    name: "Flutter",
+    logo: <GrDocker className="icon"></GrDocker>,
+  },
+  {
+    name: "HTML",
+    logo: <GrDocker className="icon"></GrDocker>,
+  },
+  {
+    name: "Oracle SQL",
+    logo: <GrDocker className="icon"></GrDocker>,
+  },
+  {
+    name: "CSS",
+    logo: <GrDocker className="icon"></GrDocker>,
   },
 ];

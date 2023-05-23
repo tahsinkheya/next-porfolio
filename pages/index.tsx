@@ -9,6 +9,7 @@ import Sidebar from "../components/Sidebar";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Work from "../components/Work";
+import Skills from "../components/Skills";
 
 export default function Home() {
   const [show, setShow] = useState(true);
@@ -58,6 +59,7 @@ export default function Home() {
             {" "}
             <Navbar />
             <About />
+            <Skills />
             <Work />
             <Education />
             <Experience />

@@ -126,3 +126,8 @@ a {
   margin-left: 26px;
   height: 500px;
 }
+
+.icon {
+  font-size: 100px;
+  color: #c09591;
+}
