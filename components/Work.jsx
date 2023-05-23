@@ -20,7 +20,7 @@ function Work() {
                   <h1 className="text-xl font-mono pb-3 md:text-2xl">
                     {item.title}
                   </h1>
-                  <div p-3>
+                  <div className="p-3">
                     <div className="flex-col justify-center items-center flex">
                       <img src={item.imgLink} alt="imglink"></img>
                       <p className="text-lg md:text-2xl pt-3">

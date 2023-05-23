@@ -194,6 +194,14 @@ export const education = [
 
 export const work = [
   {
+    title: "Brilliant Connect Ticketing System",
+    webLink: "https://app-support.brilliant.com.bd/",
+    imgLink:
+      "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/ticketing-connect.gif",
+    subtitle:
+      "I worked on the front-end for Brilliant Connect's ticketing system, ensuring that it is fully responsive and features a user-friendly interface with smooth navigation. The user interface (UI) is designed to be easily comprehensible, allowing users to interact with the system effortlessly.The UI design maintains consistency throughout, ensuring that elements are visually coherent and harmonious. A soothing color palette was carefully chosen to create a pleasant and calming visual experience for users.",
+  },
+  {
     title: "Price Estimator",
     webLink: "https://bcp.brilliant.com.bd/pricing",
     imgLink:
@@ -219,11 +227,18 @@ export const work = [
   },
   {
     title: "Product Page for Brilliant Cloud",
-    webLink:
-      "https://play.google.com/store/apps/details?id=com.brilliant.connect.com.bd&hl=en&gl=US&pli=1",
+    webLink: "https://staging.brilliant.com.bd/loadbalancer-product",
     imgLink:
       "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/productPage.gif",
     subtitle:
-      "The product page has been carefully crafted to display a comprehensive range of products and services offered by the Brilliant Cloud Portal. A uniform layout has been implemented across all products to ensure consistency. The user interface is both straightforward and captivating, striking a balance between simplicity and appeal.  Moreover, the code has been structured neatly and extensively reused to maintain cleanliness and efficiency.",
+      "The product page has been carefully crafted to display a comprehensive range of products and services offered by the Brilliant Cloud Portal. A uniform layout has been implemented across all products to ensure consistency. The user interface is both straightforward and captivating, striking a balance between simplicity and appeal.  Moreover, the code has been structured neatly and extensively reused to maintain cleanliness and efficiency.This project is still under work, so the product page can only be viewed on the dev page of brilliant cloud.",
+  },
+  {
+    title: "Admin Portal of Brilliant Cloud",
+    webLink: "https://ca.brilliant.com.bd/",
+    imgLink:
+      "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/admin-portal.gif",
+    subtitle:
+      "I enhanced the user interface (UI) and user experience (UX) of specific sections within the admin portal utilized by Brilliant Cloud. This involved redesigning those areas to make them more visually appealing and user-friendly. Additionally, I restructured the codebase, eliminating instances of duplicated code to improve maintainability and efficiency.",
   },
 ];
