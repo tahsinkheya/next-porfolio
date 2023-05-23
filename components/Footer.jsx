@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <div>
       {" "}
-      <div class="flex md:order-2 bg-black justify-center">
+      <div class="flex md:order-2 bg-slate-800 justify-center">
         {contact.map((name, i) => (
           <a
             type="button"

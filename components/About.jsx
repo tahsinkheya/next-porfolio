@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 text-5xl ">
           Hi there! My name is Kheya.
         </h1>
-        <p className="py-5 sm:text-2xl text-2xl ">
+        <p className="py-5 sm:text-2xl text-xl ">
           <RoughNotationGroup show={window.innerWidth < 1060 ? false : true}>
             I take pleasure in crafting{" "}
             {/* <RoughNotation type="highlight" color="#a86561" order="1"> */}

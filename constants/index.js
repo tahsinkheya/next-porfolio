@@ -73,13 +73,13 @@ export const experience = [
     link: "https://aqualinkbangladesh.com/",
     details: (
       <p>
-        • Designed the dashboard for the Sensometer web application using
-        Figma, ensuring that the design prioritizes user experience (UX) and
-        pro‐ motes usability.<br></br> • While developing the Sensometer web
-        application,I focused on the user interface (UI) of the application and
-        made sure it was responsive and easy to use.<br></br> • To facilitate
-        future maintenance and scalability, I made sure to avoid duplicate code
-        and promote code reusability.
+        • Designed the dashboard for the Sensometer web application using Figma,
+        ensuring that the design prioritizes user experience (UX) and pro‐ motes
+        usability.<br></br> • While developing the Sensometer web application,I
+        focused on the user interface (UI) of the application and made sure it
+        was responsive and easy to use.<br></br> • To facilitate future
+        maintenance and scalability, I made sure to avoid duplicate code and
+        promote code reusability.
       </p>
     ),
   },
@@ -189,5 +189,41 @@ export const education = [
         Prefect 2017-2018
       </p>
     ),
+  },
+];
+
+export const work = [
+  {
+    title: "Price Estimator",
+    webLink: "https://bcp.brilliant.com.bd/pricing",
+    imgLink:
+      "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/priceEstimator.gif",
+    subtitle:
+      "I have developed an animated price estimator that calculates the cost of a customized package based on the selected core, RAM and additional storage options. The animation is designed to engage users and maintain their interest throughout the entire interaction.",
+  },
+  {
+    title: "Brilliant Cloud Docs Page",
+    webLink: "https://cloud-docs.brilliant.com.bd/",
+    imgLink: "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/docs.gif",
+    subtitle:
+      "A streamlined documentation page developed for the Brilliant Cloud Portal, featuring comprehensive information about the services offered, along with valuable guides and tutorials. This minimalist design ensures easy access to all the necessary resources.",
+  },
+  {
+    title: "S3 connect Application",
+    webLink:
+      "https://play.google.com/store/apps/details?id=com.brilliant.connect.com.bd&hl=en&gl=US&pli=1",
+    imgLink:
+      "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/s3-connect.gif",
+    subtitle:
+      "Worked on the frontend of a storage application built using React and Material UI, which is tailored for mobile devices and showcases a clean and minimalist user interface. This is rendered in the Brilliant Connect Mobile app as part of their extended services. ",
+  },
+  {
+    title: "Product Page for Brilliant Cloud",
+    webLink:
+      "https://play.google.com/store/apps/details?id=com.brilliant.connect.com.bd&hl=en&gl=US&pli=1",
+    imgLink:
+      "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/productPage.gif",
+    subtitle:
+      "The product page has been carefully crafted to display a comprehensive range of products and services offered by the Brilliant Cloud Portal. A uniform layout has been implemented across all products to ensure consistency. The user interface is both straightforward and captivating, striking a balance between simplicity and appeal.  Moreover, the code has been structured neatly and extensively reused to maintain cleanliness and efficiency.",
   },
 ];

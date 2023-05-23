@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
-const inter = Inter({ subsets: ["latin"] });
+import Work from "../components/Work";
 
 export default function Home() {
   const [show, setShow] = useState(true);
@@ -58,6 +58,7 @@ export default function Home() {
             {" "}
             <Navbar />
             <About />
+            <Work />
             <Education />
             <Experience />
             {/* <Footer /> */}
