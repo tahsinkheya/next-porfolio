@@ -1,10 +1,10 @@
 import { education } from "@component/constants";
 const Education = () => {
   return (
-    <div className="grid grid-cols-1  md:grid-cols-5 px-10 py-2 pt-10 gap-5">
+    <div className="grid grid-cols-1  md:grid-cols-5 px-10 py-2  ">
       <div className="col-span-1"> </div>
-      <div className="bg-black-700 text-white font-poppins   md:grid col-span-3 py-20">
-        <h1 className="text-6xl place-items-left font-extrabold text-transparent bg-clip-text bg-gradient-to-r pb-7 from-cyan-400 to-blue-600 ">
+      <div className="bg-black-700 text-white font-poppins   md:grid col-span-3 py-7">
+        <h1 className="sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 pb-5 to-blue-600 text-5xl ">
           Education
         </h1>{" "}
         <ol class="relative border-l border-gray-200 dark:border-gray-700">

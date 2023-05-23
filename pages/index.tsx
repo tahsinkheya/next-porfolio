@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@component/styles/Home.module.css";
 import { useEffect, useState } from "react";
 import About from "../components/About";
 import Navbar from "../components/Navbar";
@@ -32,7 +31,7 @@ export default function Home() {
           sizes="2002x2002 1000x1000"
         />
       </Head>
-      <main className="bg-black">
+      <main className="bg-gradient-to-b from-black via-slate-900 to-slate-800">
         {show && (
           <div
             style={{

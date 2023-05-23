@@ -46,22 +46,23 @@ export const experience = [
     // • Soft Skills: Problem‑solving, Creativity, Teamwork, Time Management, Communication, Presentation skills
     details: (
       <p>
-        • Improved the UI for certain services for Brilliant Cloud Portal by
-        following Nielsen’s Heuristics to promote usability <br></br>• For some
-        of the projects, I implemented the use of ”hydrate” instead of ”render”
+        {/* • Improved the UI for certain services for Brilliant Cloud Portal by
+        following Nielsen’s Heuristics to promote usability <br></br>• For some */}
+        {/* of the projects, I implemented the use of ”hydrate” instead of ”render”
         to enhance performance by nearly 40 percent and improve search engine
         optimization. Hydrate uses server side rendering to improve performance.
         <br></br> • I tested various functionalities, identified bugs, and
-        rectified them to enhance error prevention. <br></br>• Moreover,I was
-        given the task of reorganizing a portion of their codebase and
-        substantially minimizing the occurrence of duplicate code, which
-        contributed to enhancing its maintainability. <br></br>• I integrated an
-        animated price calculator into the Brilliant Cloud portal. The animation
-        enhances user engagement and helps guide their atten‑tion to specific
-        elements.<br></br> • I designed a page to display each product offered
-        by InterCloud, using a consistent code structure that can be easily
-        modified for each product. By reusing the same code with minor
-        adjustments, maintenance is simplified.
+        rectified them to enhance error prevention. <br></br> */}
+        • Reorganized multiple codebases and worked on substantially minimizing
+        the occurrence of duplicate code, which contributed to enhancing its
+        maintainability. <br></br>• Integrated an animated price calculator into
+        the Brilliant Cloud portal. The animation enhances user engagement and
+        helps guide their atten‑tion to specific elements.<br></br> • Designed a
+        page to display each product offered by InterCloud, using a consistent
+        code structure that can be easily modified for each product. <br></br> •
+        Was involved in the development of an internal ticketing system where I
+        ensured that I followed Nielsen's heuristics to enhance the user
+        interface (UI) and user experience (UX).
       </p>
     ),
   },
@@ -72,7 +73,7 @@ export const experience = [
     link: "https://aqualinkbangladesh.com/",
     details: (
       <p>
-        • I designed the dashboard for the Sensometer web application using
+        • Designed the dashboard for the Sensometer web application using
         Figma, ensuring that the design prioritizes user experience (UX) and
         pro‐ motes usability.<br></br> • While developing the Sensometer web
         application,I focused on the user interface (UI) of the application and
@@ -162,9 +163,10 @@ export const education = [
     ),
     details: (
       <p>
-        • Monash Faculty of Engineering Dean’s Honour List <br></br>• Ex-member
-        of the Monash Women's Cricket Club <br></br>• Tech Support for HEARD
-        mobile applcation testing conducted by school of Pharmacy in July 2022
+        • Monash Faculty of Engineering Dean’s Honour List<br></br>• Monash
+        Women's Engineers Club Member 2022 <br></br>• Monash Women's Cricket
+        Club Member 2019<br></br>• Tech Support for HEARD mobile applcation
+        testing conducted by school of Pharmacy in July 2022
       </p>
     ),
   },

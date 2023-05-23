@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav
         id="home"
         className={
-          "w-full flex py-2 justify-between items-center bg-black-500, px-6"
+          "w-full flex py-2 justify-between items-center bg-black-500 px-6"
         }
       >
         <img
