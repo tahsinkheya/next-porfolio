@@ -23,7 +23,7 @@ const Experience = () => {
           Places I have worked
         </h1>{" "}
         {experience.map((item, i) => (
-          <div id="accordion-collapse" data-accordion="collapse">
+          <div id="accordion-collapse" data-accordion="collapse" key={i}>
             <h2 id="accordion-collapse-heading-3">
               <button
                 type="button"

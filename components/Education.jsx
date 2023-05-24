@@ -12,7 +12,7 @@ const Education = () => {
         </h1>{" "}
         <ol class="relative border-l border-gray-200 dark:border-gray-700">
           {education.map((item, i) => (
-            <li class="mb-10 ml-6">
+            <li class="mb-10 ml-6" key={i}>
               <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                 <img
                   // class="rounded-full shadow-lg"

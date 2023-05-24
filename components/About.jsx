@@ -18,7 +18,7 @@ const About = () => {
               I take pleasure in crafting{" "}
               {/* <RoughNotation type="highlight" color="#a86561" order="1"> */}
               uncomplicated yet elegant {/* </RoughNotation>{" "} */}
-              creations for both business and individual use. I'm constantly
+              creations for both business and individual use. I am constantly
               looking for opportunities to apply my expertise in{" "}
               <RoughNotation type="highlight" color="#c09591" order="2">
                 web development
