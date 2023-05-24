@@ -10,7 +10,7 @@ const About = () => {
       >
         <div className="col-span-1"> </div>
         <div className="bg-black-700 text-white font-poppins  justify-center md:grid place-items-center col-span-2">
-          <h1 className="sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 text-5xl ">
+          <h1 className="sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-300 text-5xl ">
             Hi there! My name is Kheya.
           </h1>
           <p className="py-5 sm:text-2xl text-xl ">
@@ -35,9 +35,9 @@ const About = () => {
         <div className=" grid place-items-center md:grid place-items-left ">
           <img
             src={
-              "https://s3.brilliant.com.bdh/tahsin/kheyaPortfolio/Screenshot_20230314_124420_Instagram.jpg"
+              "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/458e13e8-d868-4e04-a592-1d789ad89e56.jpeg"
             }
-            className="h-[400px] w-[312px] rounded-lg"
+            className="h-[450px] w-[330px] rounded-lg"
           />
         </div>
       </div>

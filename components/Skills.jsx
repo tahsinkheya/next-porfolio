@@ -14,7 +14,7 @@ function Skills() {
           <div className="col-span-1"> </div>
           <div className="bg-black-700 text-white font-poppins   md:grid col-span-3 py-3">
             {" "}
-            <h1 className="sm:text-6xl font-extrabold text-transparent pb-6 bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 text-5xl ">
+            <h1 className="sm:text-6xl font-extrabold text-transparent pb-6 bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-300 text-5xl ">
               Skills
             </h1>{" "}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-5">

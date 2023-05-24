@@ -3,7 +3,7 @@ import { work } from "@component/constants";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 function Work() {
-  const [num, setNum] = React.useState(4);
+  const [num, setNum] = React.useState(3);
   return (
     <div>
       {" "}
@@ -14,7 +14,7 @@ function Work() {
         <div className="col-span-1"> </div>
         <div className="bg-black-700 text-white font-poppins   md:grid col-span-3 py-3">
           {" "}
-          <h1 className="sm:text-6xl font-extrabold text-transparent pb-6 bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 text-5xl ">
+          <h1 className="sm:text-6xl font-extrabold text-transparent pb-6 bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-300 text-5xl ">
             Some Things I have worked on
           </h1>
           {work.map((item, i) => (
@@ -40,7 +40,9 @@ function Work() {
                     "
                       >
                         <a
-                          href={item.webLink}
+                          onClick={() => {
+                            window.open(item.webLink, "_blank");
+                          }}
                           class="inline-flex items-center font-medium text-cyan-300  hover:underline pt-3"
                         >
                           View More
