@@ -1,7 +1,7 @@
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 const About = () => {
   return (
-    <div className="grid grid-cols-1  md:grid-cols-5 px-10 py-9 pt-20 gap-5">
+    <div className="grid grid-cols-1  md:grid-cols-5 md:px-10 md:py-9 md:pt-20 md:gap-5 py-3 pt-3 px-6">
       <div className="col-span-1"> </div>
       <div className="bg-black-700 text-white font-poppins  justify-center md:grid place-items-center col-span-2">
         <h1 className="sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 text-5xl ">

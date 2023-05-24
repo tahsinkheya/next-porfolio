@@ -1,8 +1,16 @@
 import { FiGitlab, FiMail } from "react-icons/fi";
 import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
-import { GrReactjs, GrDocker } from "react-icons/gr";
-import { TbBrandTailwind } from "react-icons/tb";
-import { SiNextdotjs } from "react-icons/si";
+import { GrReactjs, GrDocker, GrOracle } from "react-icons/gr";
+import { AiFillFileMarkdown } from "react-icons/ai";
+import {
+  TbBrandTailwind,
+  TbBrandNextjs,
+  TbBrandCss3,
+  TbBrandFlutter,
+  TbHtml,
+} from "react-icons/tb";
+// import { SiNextdotjs } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoDocker, IoLogoPython } from "react-icons/io";
 export const contact = [
   { id: 1, icon: <FiGitlab />, link: "https://gitlab.com/tkhe19" },
@@ -266,30 +274,30 @@ export const skills = [
   },
   {
     name: "Next.js",
-    logo: <GrDocker className="icon"></GrDocker>,
+    logo: <TbBrandNextjs className="icon text-sm"></TbBrandNextjs>,
   },
   {
     name: "Java",
-    logo: <GrDocker className="icon"></GrDocker>,
+    logo: <FaJava className="icon"></FaJava>,
   },
   {
     name: "CSS",
-    logo: <GrDocker className="icon"></GrDocker>,
+    logo: <TbBrandCss3 className="icon"></TbBrandCss3>,
   },
   {
     name: "Flutter",
-    logo: <GrDocker className="icon"></GrDocker>,
+    logo: <TbBrandFlutter className="icon"></TbBrandFlutter>,
   },
   {
     name: "HTML",
-    logo: <GrDocker className="icon"></GrDocker>,
+    logo: <TbHtml className="icon"></TbHtml>,
   },
   {
     name: "Oracle SQL",
-    logo: <GrDocker className="icon"></GrDocker>,
+    logo: <GrOracle className="icon"></GrOracle>,
   },
   {
-    name: "CSS",
-    logo: <GrDocker className="icon"></GrDocker>,
+    name: "Markdown",
+    logo: <AiFillFileMarkdown className="icon"></AiFillFileMarkdown>,
   },
 ];
