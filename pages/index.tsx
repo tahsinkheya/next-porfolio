@@ -61,8 +61,7 @@ export default function Home() {
             <About />
             <Skills />
             <Work />
-            <Education />
-            <Experience />
+            <Experience /> <Education />
             {/* <Footer /> */}
             {window.innerWidth < 1060 ? <Footer /> : <Sidebar />}
           </div>

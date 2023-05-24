@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div className="sticky top-0 z-50">
       <nav
         id="home"
         className={
@@ -25,7 +25,7 @@ const Navbar = () => {
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={`font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-cyan-600 ease-in duration-300 hover:text-lg ${
+              className={`font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-secondary ease-in duration-300 hover:text-lg ${
                 index === navLinks.length - 1 ? "mr-0" : "mr-10"
               }`}
             >

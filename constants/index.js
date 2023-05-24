@@ -31,19 +31,29 @@ export const contact = [
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
-    link: "",
-  },
-  {
     id: "about",
     title: "About",
-    link: "",
+    link: "#about",
   },
   {
-    id: "resume",
-    title: "Resume",
-    link: "",
+    id: "skill",
+    title: "Skill",
+    link: "#skill",
+  },
+  {
+    id: "work",
+    title: "Work",
+    link: "#work",
+  },
+  {
+    id: "experience",
+    title: "Experience",
+    link: "#experience",
+  },
+  {
+    id: "education",
+    title: "Education",
+    link: "#education",
   },
 ];
 export const experience = [
