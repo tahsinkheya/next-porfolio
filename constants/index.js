@@ -7,9 +7,11 @@ import {
   TbBrandNextjs,
   TbBrandCss3,
   TbBrandFlutter,
+  TbBrandBootstrap,
   TbHtml,
 } from "react-icons/tb";
 // import { SiNextdotjs } from "react-icons/si";
+import { SiMui } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoDocker, IoLogoPython } from "react-icons/io";
 export const contact = [
@@ -54,6 +56,11 @@ export const navLinks = [
     id: "education",
     title: "Education",
     link: "#education",
+  },
+  {
+    id: "resume",
+    title: "Resume",
+    link: "",
   },
 ];
 export const experience = [
@@ -223,6 +230,13 @@ export const work = [
       "I worked on the front-end for Brilliant Connect's ticketing system, ensuring that it is fully responsive and features a user-friendly interface with smooth navigation. The user interface (UI) is designed to be easily comprehensible, allowing users to interact with the system effortlessly.The UI design maintains consistency throughout, ensuring that elements are visually coherent and harmonious. A soothing color palette was carefully chosen to create a pleasant and calming visual experience for users.",
   },
   {
+    title: "Brilliant Cloud Docs Page",
+    webLink: "https://cloud-docs.brilliant.com.bd/",
+    imgLink: "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/docs.gif",
+    subtitle:
+      "A streamlined documentation page developed for the Brilliant Cloud Portal, featuring comprehensive information about the services offered, along with valuable guides and tutorials. This minimalist design ensures easy access to all the necessary resources.",
+  },
+  {
     title: "Price Estimator",
     webLink: "https://bcp.brilliant.com.bd/pricing",
     imgLink:
@@ -230,13 +244,7 @@ export const work = [
     subtitle:
       "I have developed an animated price estimator that calculates the cost of a customized package based on the selected core, RAM and additional storage options. The animation is designed to engage users and maintain their interest throughout the entire interaction.",
   },
-  {
-    title: "Brilliant Cloud Docs Page",
-    webLink: "https://cloud-docs.brilliant.com.bd/",
-    imgLink: "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/work/docs.gif",
-    subtitle:
-      "A streamlined documentation page developed for the Brilliant Cloud Portal, featuring comprehensive information about the services offered, along with valuable guides and tutorials. This minimalist design ensures easy access to all the necessary resources.",
-  },
+
   {
     title: "S3 connect Application",
     webLink:
@@ -307,7 +315,15 @@ export const skills = [
     logo: <GrOracle className="icon"></GrOracle>,
   },
   {
+    name: "Bootstrap",
+    logo: <TbBrandBootstrap className="icon"></TbBrandBootstrap>,
+  },
+  {
     name: "Markdown",
     logo: <AiFillFileMarkdown className="icon"></AiFillFileMarkdown>,
+  },
+  {
+    name: "Material UI",
+    logo: <SiMui className="icon"></SiMui>,
   },
 ];

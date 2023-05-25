@@ -1,15 +1,18 @@
 import { education } from "@component/constants";
 const Education = () => {
   return (
-    <div className="grid grid-cols-1  md:grid-cols-5 md:px-10 md:py-9 md:pt-20 md:gap-5 py-3 pt-3 px-6" id="education">
+    <div
+      className="grid grid-cols-1  md:grid-cols-5 md:px-10 md:py-9 md:pt-20 md:gap-5 py-3 pt-3 px-6"
+      id="education"
+    >
       <div className="col-span-1"> </div>
       <div className="bg-black-700 text-white font-poppins   md:grid col-span-3 py-7">
-        <h1 className="sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 pb-5 to-blue-600 text-5xl ">
+        <h1 className="sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 pb-5 to-pink-300 text-5xl ">
           Education
         </h1>{" "}
         <ol class="relative border-l border-gray-200 dark:border-gray-700">
           {education.map((item, i) => (
-            <li class="mb-10 ml-6">
+            <li class="mb-10 ml-6" key={i}>
               <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                 <img
                   // class="rounded-full shadow-lg"
