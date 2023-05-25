@@ -117,7 +117,8 @@ a {
   height: 100vh;
   background-color: transparent;
   opacity: 0.5;
-  margin-top: 300px;
+  margin-top: 500px;
+  /* margin-bottom: 1px; */
   z-index: 1000;
 }
 
@@ -131,5 +132,3 @@ a {
   font-size: 70px;
   color: #c09591;
 }
-
-
