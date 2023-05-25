@@ -278,11 +278,12 @@ export const work = [
 ];
 
 export const skills = [
-  { name: "React.js", logo: <GrReactjs className="icon"></GrReactjs> },
   {
     name: "JavaScript",
     logo: <IoLogoJavascript className="icon"></IoLogoJavascript>,
   },
+  { name: "React.js", logo: <GrReactjs className="icon"></GrReactjs> },
+
   {
     name: "Docker",
     logo: <GrDocker className="icon"></GrDocker>,

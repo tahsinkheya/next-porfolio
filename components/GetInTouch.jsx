@@ -13,7 +13,7 @@ function GetInTouch() {
         </h1>{" "}
         <div className=" flex flex-col justify-center items-center">
           <p className="py-5 sm:text-2xl text-xl">
-            My indox is always open. If you have any questions or want to say
+            My inbox is always open. If you have any questions or want to say
             hi, just email me 😊.
           </p>
           <button
