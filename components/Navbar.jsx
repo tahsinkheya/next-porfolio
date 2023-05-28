@@ -66,7 +66,13 @@ const Navbar = () => {
                     index === navLinks.length - 1 ? "mb-0" : "mb-4"
                   }`}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  {nav.link === "" ? (
+                    // <a>{nav.title}</a>""
+
+                    ""
+                  ) : (
+                    <a href={`#${nav.id}`}>{nav.title}</a>
+                  )}
                 </li>
               ))}
             </ul>
