@@ -27,7 +27,7 @@ const Experience = () => {
             <h2 id="accordion-collapse-heading-3">
               <button
                 type="button"
-                class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-slate-700 dark:hover:bg-gray-800"
                 data-accordion-target="#accordion-collapse-body-3"
                 aria-expanded="false"
                 aria-controls="accordion-collapse-body-3"
@@ -35,10 +35,10 @@ const Experience = () => {
                   handleClick(i);
                 }}
               >
-                <span>
-                  {item.name}
+                <span className="text-white">
+                  <p className="text-xl font-mono"> {item.name}</p>
                   <p>{item.position}</p>
-                  <p>{item.timeline}</p>
+                  <p className="italic">{item.timeline}</p>
                 </span>
                 {!show[i] && (
                   <svg

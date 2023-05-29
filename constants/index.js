@@ -186,6 +186,8 @@ export const education = [
   {
     name: "Monash University Malaysia",
     title: "Bachelor of Software Engineering",
+    timeline: "Feb 2019 - Nov 2022",
+
     link: "https://www.monash.edu.my/",
     imgLink:
       "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/dffc65394bf389930424613c8c658301.jpg",
@@ -199,13 +201,16 @@ export const education = [
         • Monash Faculty of Engineering Dean’s Honour List<br></br>• Monash
         Women's Engineers Club Member 2022 <br></br>• Monash Women's Cricket
         Club Member 2019<br></br>• Tech Support for HEARD mobile applcation
-        testing conducted by school of Pharmacy in July 2022
+        testing conducted by school of Pharmacy in July 2022 <br></br>• USM
+        Varsity Hackathon 2022 - Participant <br></br>• Shopee Code League 2022
+        - Participant <br></br>• Quick Hack 2022 - Participant
       </p>
     ),
   },
   {
     name: "Delhi Public School Dhaka",
     title: "Highschool",
+    timeline: "Aug 2013 - Jun 2018",
     imgLink: "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/images.jpeg",
     link: "https://dpsstsdhaka.org/",
     results: (

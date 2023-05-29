@@ -20,12 +20,8 @@ function Work() {
           {work.map((item, i) => (
             <>
               {i < num && (
-                // <ScrollAnimation
-                //   animateIn="animate__slideInLeft"
-                //   animatePreScroll={false}
-                // >
                 <div className="pb-5">
-                  <h1 className="text-xl font-mono pb-3 md:text-2xl">
+                  <h1 className="text-xl font-mono pb-3 md:text-2xl ">
                     {item.title}
                   </h1>
                   <div className="p-3">
@@ -43,7 +39,7 @@ function Work() {
                         onClick={() => {
                           window.open(item.webLink, "_blank");
                         }}
-                        class="inline-flex items-center font-medium text-cyan-300  hover:underline pt-3"
+                        class="inline-flex items-center font-medium text-cyan-300  hover:underline pt-3 cursor-pointer"
                       >
                         View More
                         <svg

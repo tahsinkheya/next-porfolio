@@ -29,6 +29,7 @@ const Education = () => {
                     >
                       {item.name}
                     </a>
+                    <p>{item.timeline}</p>
                     <p className="p-2 font-bold text-blue-900">
                       {" "}
                       {item.results}
