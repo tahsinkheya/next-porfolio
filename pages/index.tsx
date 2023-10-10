@@ -11,6 +11,7 @@ import Education from "../components/Education";
 import Work from "../components/Work";
 import Skills from "../components/Skills";
 import GetInTouch from "../components/GetInTouch";
+import Testimonial from "../components/Testimonial"
 
 export default function Home() {
   const [show, setShow] = useState(true);
@@ -63,6 +64,7 @@ export default function Home() {
             <Skills />
             <Work />
             <Experience /> <Education />
+            <Testimonial/>
             <GetInTouch />
             {/* <Footer /> */}
             {window.innerWidth < 1060 ? <Footer /> : <Sidebar />}

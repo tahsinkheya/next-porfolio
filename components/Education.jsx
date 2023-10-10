@@ -42,33 +42,6 @@ const Education = () => {
               </div>
             </li>
           ))}
-          {/* <li class="ml-6">
-            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-              <img
-                class="rounded-full shadow-lg"
-                src="/docs/images/people/profile-picture-1.jpg"
-                alt="Jese Leos image"
-              />
-            </span>
-            <div class="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:bg-gray-700 dark:border-gray-600">
-              <time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">
-                1 day ago
-              </time>
-              <div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">
-                Jese Leos has changed{" "}
-                <a
-                  href="#"
-                  class="font-semibold text-blue-600 dark:text-blue-500 hover:underline"
-                >
-                  Pricing page
-                </a>{" "}
-                task status to{" "}
-                <span class="font-semibold text-gray-900 dark:text-white">
-                  Finished
-                </span>
-              </div>
-            </div>
-          </li> */}
         </ol>
       </div>
     </div>
