@@ -98,11 +98,20 @@ const Testimonial = () => {
                         <p className="text-white text-xl p-4">{item.text}</p>
                         <div className="flex flex-col justify-center items-center pt-5">
                           {" "}
-                          <p className="text-white text-xl font-extrabold">
+                          <a
+                            href={item.linkedIn}
+                            className="text-white text-xl font-extrabold  hover:text-cyan-400 hover:underline"
+                          >
                             {item.name}
-                          </p>
+                          </a>
                           <p className="text-white italic">{item.position}</p>
-                          <p className="text-white font-bold">{item.company}</p>
+                          <a
+                            href={item.workLink}
+                            className="text-white font-bold hover:text-cyan-400 hover:underline"
+                          >
+                            {" "}
+                            {item.company}
+                          </a>
                         </div>
                       </div>
                     </div>
