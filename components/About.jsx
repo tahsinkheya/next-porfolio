@@ -1,6 +1,7 @@
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 // import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
+// import TahsibRes from "../assets/TahsinResume"
 const About = () => {
   return (
     // <ScrollAnimation animateIn="animate__fadeIn">
@@ -31,6 +32,14 @@ const About = () => {
           applications and websites. In my free time, I like to play Genshin
           Impact, watch movies, and doodle.
         </p>
+        <a
+          href="https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/TahsinResume.pdf"
+          download="TahsinAlamgirKheya.pdf"
+          target="_blank"
+          className="bg-transparent text-center hover:bg-cyan-700 text-cyan-400 w-[200px] font-semibold hover:text-white py-2 px-4 border border-cyan-400 hover:border-transparent rounded"
+        >
+          Resume
+        </a>
       </div>
       <div className=" grid place-items-center md:grid place-items-left ">
         <img

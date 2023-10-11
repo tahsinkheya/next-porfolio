@@ -62,10 +62,11 @@ export const navLinks = [
     title: "Contact",
     link: "#contact",
   },
+
   {
-    id: "resume",
-    title: "Resume",
-    link: "",
+    id: "testimonial",
+    title: "Testimonial",
+    link: "#testimonial",
   },
 ];
 export const experience = [
@@ -336,5 +337,40 @@ export const skills = [
   {
     name: "Material UI",
     logo: <SiMui className="icon"></SiMui>,
+  },
+];
+
+export const testimonials = [
+  {
+    name: "Morgan Tsai",
+    company: "Espressoft Systems Sdn Bhd",
+    linkedIn: "https://www.linkedin.com/in/morgan-tsai-my/",
+    position: "Software Engineer",
+    workLink: "https://ww2.espressoft.com.my/",
+    text: "Tahsin has an exceptional ability to make people feel welcome and at ease. Her reliability and willingness to lend a hand in any situation are truly commendable. Whenever I've needed assistance or support, I could always count on Tahsin to come through with unwavering dependability.",
+  },
+  {
+    name: "Maryam Peer",
+    company: "Accenture",
+    linkedIn: "https://www.linkedin.com/in/maryam-peer/",
+    position: "Full Stack Developer",
+    workLink: "https://www.accenture.com/mu-en",
+    text: "Tahsin is a nice and friendly person. She is a great developer who is passionate about her work. She has always been very helpful in group work and has always demonstrated a sense of team spirit",
+  },
+  {
+    name: "Mushfiqunabi Nijum",
+    company: "Intercloud Limited",
+    position: "Software Engineer",
+    linkedIn: "https://www.linkedin.com/in/mnijhum/",
+    workLink: "https://intercloud.com.bd/",
+    text: "Tahsin is an incredibly talented developer. Whenever we get stuck on a problem, she comes up with a simple solution. Additionally, she is a fast learner, a friendly team player and can quickly adapt to any kind of tech stack. I wish her all the best.",
+  },
+  {
+    name: "Kamruzzaman Leion",
+    company: "Intercloud Limited",
+    position: "Software Engineer",
+    linkedIn: "https://www.linkedin.com/in/kamruzzaman-leion-97ba28156/",
+    workLink: "https://intercloud.com.bd/",
+    text: "Tahsin Kheya is a great front end engineer who has logical thinking and creative problem solving skills. She is really good of using best practices in front end engineering and great capability to work with people and solve problems in an organized manner.",
   },
 ];

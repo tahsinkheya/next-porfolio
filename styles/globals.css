@@ -132,3 +132,60 @@ a {
   font-size: 70px;
   color: #c09591;
 }
+
+.mySwiper {
+	/* width: 100%; */
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	width: 16vw;
+}
+@media (max-width: 800px) {
+	.swiper-slide {
+		background-position: center;
+		background-size: cover;
+    /* background-color: pink; */
+		width: 60%;
+	}
+}
+
+.swiper-slide img {
+	display: block;
+	/* width: 100%; */
+}
+
+.fade-in {
+	opacity: 0;
+	transition: opacity 0.5s ease-in;
+}
+
+.fade-in.show {
+	opacity: 1;
+}
+
+.testimonial{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 70%; */
+}
+
+@media (min-width: 800px ) and (max-width:1599px){
+  .testimonial{
+    width:100% !important ;
+  }
+}
+
+@media (max-width: 1600px) {
+  .testimonial{
+    width: 80%;
+  }
+}
+
