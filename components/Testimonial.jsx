@@ -100,6 +100,7 @@ const Testimonial = () => {
                           {" "}
                           <a
                             href={item.linkedIn}
+                            target="_blank"
                             className="text-white text-xl font-extrabold  hover:text-cyan-400 hover:underline"
                           >
                             {item.name}
@@ -107,6 +108,7 @@ const Testimonial = () => {
                           <p className="text-white italic">{item.position}</p>
                           <a
                             href={item.workLink}
+                            target="_blank"
                             className="text-white font-bold hover:text-cyan-400 hover:underline"
                           >
                             {" "}
