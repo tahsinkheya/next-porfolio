@@ -53,8 +53,6 @@ const Testimonial = () => {
               onClick={() => {
                 if (!swiper.slideNext()) {
                   swiper.slideTo(0);
-                } else {
-                  //   swiper.slideNext();
                 }
               }}
             >
@@ -85,7 +83,7 @@ const Testimonial = () => {
         >
           {" "}
           {testimonials.map((item, key) => (
-            <SwiperSlide>
+            <SwiperSlide key={key}>
               <div className="p-3">
                 <div className="testimonial">
                   <div className=" flex justify-center items-center">
