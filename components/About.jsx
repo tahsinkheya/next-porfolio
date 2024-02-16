@@ -30,10 +30,10 @@ const About = () => {
             </RoughNotation>
           </RoughNotationGroup>{" "}
           applications and websites. In my free time, I like to play Genshin
-          Impact, watch movies, and doodle.
+          Impact, watch movies, and doodle .
         </p>
         <a
-          href="https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/TahsinResume.pdf"
+          href=""
           download="TahsinAlamgirKheya.pdf"
           target="_blank"
           className="bg-transparent text-center hover:bg-cyan-700 text-cyan-400 w-[200px] font-semibold hover:text-white py-2 px-4 border border-cyan-400 hover:border-transparent rounded"
