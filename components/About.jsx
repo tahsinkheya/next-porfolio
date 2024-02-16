@@ -25,7 +25,7 @@ const About = () => {
              {/* </RoughNotation>{" "} */}
             {/* creations for both business and individual use. */}
             I am a researcher, currently working on AI/ML bias. My goal is to develop tools to detect and mitigate bias in real-world applications.
-            From my standpoint, technology should be equitable and inclusive. I'm enthusiatic about contributing in this area to make it a reality.
+            From my standpoint, technology should be equitable and inclusive. I am enthusiatic about contributing in this area to make it a reality.
              Moreover I am a passionate front-end engineer who is constantly
             looking for opportunities to apply my expertise in{" "}
             {/* <RoughNotation type="highlight" color="#c09591" order="2"> */}
