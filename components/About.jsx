@@ -51,7 +51,7 @@ const About = () => {
       <div className=" grid place-items-center md:grid place-items-left ">
         <div className="bg-transparent">
 
-      <iframe src="https://drive.google.com/file/d/1xTxEwdaWWwrCWbgh3imWOnCQWaH-g0ke/preview" width="370" height="400" className="rounded-full bg-transparent" ></iframe>
+      <iframe src="https://drive.google.com/file/d/1xTxEwdaWWwrCWbgh3imWOnCQWaH-g0ke/preview" width="300" height="325" className="rounded-full bg-transparent" ></iframe>
 
         </div>
       {/* <img src="https://drive.google.com/uc?id=1xTxEwdaWWwrCWbgh3imWOnCQWaH-g0ke" alt="Description of the image"/> */}
