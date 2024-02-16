@@ -1,7 +1,9 @@
 import { FiGitlab, FiMail } from "react-icons/fi";
 import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 import { GrReactjs, GrDocker, GrOracle } from "react-icons/gr";
+import { TfiFaceSmile } from "react-icons/tfi";
 import { AiFillFileMarkdown } from "react-icons/ai";
+import { SiNumpy ,SiScikitlearn} from "react-icons/si";
 import {
   TbBrandTailwind,
   TbBrandNextjs,
@@ -29,6 +31,7 @@ export const contact = [
     icon: <BsInstagram />,
     link: "https://www.instagram.com/tahsinkheya/?igshid=ZDdkNTZiNTM%3D",
   },
+  {id:6, icon :<TfiFaceSmile/>, link:"https://huggingface.co/tahsinkheya"}
 ];
 
 export const navLinks = [
@@ -63,11 +66,11 @@ export const navLinks = [
     link: "#contact",
   },
 
-  {
-    id: "testimonial",
-    title: "Testimonial",
-    link: "#testimonial",
-  },
+  // {
+  //   id: "testimonial",
+  //   title: "Testimonial",
+  //   link: "#testimonial",
+  // },
 ];
 export const experience = [
   {
@@ -255,7 +258,9 @@ name:"Deakin University Australia",
 ];
 
 export const work = [
-  {
+  {title:"Reinforcement Learning Models", webLink:"https://huggingface.co/tahsinkheya", 
+  imgLink:"", subtitle:"I've recently discovered a deep interest in the world of reinforcement learning! I'm currently diving into the Hugging Face course on deep reinforcement learning, eager to gain expertise in this domain. My ultimate goal? To leverage RL as a tool for mitigating bias in automated models. I'm still actively researching and learning, but I'm excited about the potential!"}
+,  {
     title: "Brilliant Connect Ticketing System",
     webLink: "https://app-support.brilliant.com.bd/",
     imgLink:
@@ -332,6 +337,12 @@ export const skills = [
   {
     name: "Java",
     logo: <FaJava className="icon"></FaJava>,
+  }, {
+    name: "Numpy",
+    logo: <SiNumpy className="icon"></SiNumpy>,
+  },{
+    name: "Scikitlearn",
+    logo: <SiScikitlearn className="icon"></SiScikitlearn>,
   },
   {
     name: "CSS",

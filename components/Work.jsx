@@ -26,7 +26,7 @@ function Work() {
                   </h1>
                   <div className="p-3">
                     <div className="flex-col justify-center items-center flex">
-                      <img src={item.imgLink} alt="imglink"></img>
+                      {item.imgLink!=="" && <img src={item.imgLink} alt="imglink"></img>}
                       <p className="text-lg md:text-2xl pt-3">
                         {item.subtitle}
                       </p>
