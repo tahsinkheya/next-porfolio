@@ -65,7 +65,7 @@ export default function Home() {
             <Skills />
             <Work />
             <Experience /> <Education />
-            <Testimonial/>
+            {/* <Testimonial/> */}
             <GetInTouch />
             {/* <Footer /> */}
             {window.innerWidth < 1060 ? <Footer /> : <Sidebar />}

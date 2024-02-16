@@ -184,6 +184,29 @@ export const projects = [
 ];
 
 export const education = [
+  { title: "Doctor of Philosophy",
+  timeline: "Nov 2023 - Present",
+name:"Deakin University Australia",
+  link: "https://www.deakin.edu.au/",
+  imgLink:
+    "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/deakin.jpg",
+  results: (
+    // <p>
+    //   • Grade: H1 (First‐class Honours)<br></br>• CGPA: 3.84 WAM:80.818
+    // </p>
+    <p>Prposed Topic : Algorithmic Bias</p>
+  ),
+  details: (
+    // <p>
+    //   • Monash Faculty of Engineering Dean’s Honour List<br></br>• Monash
+    //   Women's Engineers Club Member 2022 <br></br>• Monash Women's Cricket
+    //   Club Member 2019<br></br>• Tech Support for HEARD mobile applcation
+    //   testing conducted by school of Pharmacy in July 2022 <br></br>• USM
+    //   Varsity Hackathon 2022 - Participant <br></br>• Shopee Code League 2022
+    //   - Participant <br></br>• Quick Hack 2022 - Participant
+    // </p>
+    <p>Working with the <a href={"https://deakin-mlds.github.io/people.html"} className="underline text-blue-500 pointer cursor-pointer" >Machine Learning for Decision Support (MLDS) Group</a></p>
+  ),},
   {
     name: "Monash University Malaysia",
     title: "Bachelor of Software Engineering",
