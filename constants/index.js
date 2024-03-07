@@ -76,7 +76,7 @@ export const experience = [
   {
     name: "Intercloud Limited",
     position: "Full-time Software Engineer",
-    timeline: "Jan 2023 - Present",
+    timeline: "Jan 2023 - Oct 2023",
     link: "https://www.intercloud.com.bd/",
     //     technicalSkills: [{name:"React JS"},{name:"Next JS"},{name: "Material UI"}, {name:"Tailwind"},{name: "Docker"}],
     //     softSkills: [{name:"React JS"},{name:"Next JS"},{name: "Material UI"}, {name:"Tailwind"},{name: "Docker"}],
@@ -208,7 +208,7 @@ name:"Deakin University Australia",
     //   Varsity Hackathon 2022 - Participant <br></br>• Shopee Code League 2022
     //   - Participant <br></br>• Quick Hack 2022 - Participant
     // </p>
-    <p>Working with the <a href={"https://deakin-mlds.github.io/people.html"} className="underline text-blue-500 pointer cursor-pointer" >Machine Learning for Decision Support (MLDS) Group</a></p>
+    <p>• Working with the <a href={"https://deakin-mlds.github.io/people.html"} className="underline text-blue-500 pointer cursor-pointer" >Machine Learning for Decision Support (MLDS) Group</a></p>
   ),},
   {
     name: "Monash University Malaysia",
