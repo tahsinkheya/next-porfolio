@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import { useEffect, useState } from "react";
 import About from "../components/About";
 import Navbar from "../components/Navbar";
+import Paper from "../components/Paper"
 import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
 import Experience from "../components/Experience";
@@ -62,6 +63,8 @@ export default function Home() {
             {" "}
             <Navbar />
             <About />
+
+            <Paper/>
             <Skills />
             <Work />
             <Experience /> <Education />

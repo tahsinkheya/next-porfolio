@@ -3,7 +3,7 @@ import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 import { GrReactjs, GrDocker, GrOracle } from "react-icons/gr";
 import { TfiFaceSmile } from "react-icons/tfi";
 import { AiFillFileMarkdown } from "react-icons/ai";
-import { SiNumpy ,SiScikitlearn} from "react-icons/si";
+import { SiNumpy, SiScikitlearn } from "react-icons/si";
 import {
   TbBrandTailwind,
   TbBrandNextjs,
@@ -31,7 +31,7 @@ export const contact = [
     icon: <BsInstagram />,
     link: "https://www.instagram.com/tahsinkheya/?igshid=ZDdkNTZiNTM%3D",
   },
-  {id:6, icon :<TfiFaceSmile/>, link:"https://huggingface.co/tahsinkheya"}
+  { id: 6, icon: <TfiFaceSmile />, link: "https://huggingface.co/tahsinkheya" },
 ];
 
 export const navLinks = [
@@ -71,6 +71,20 @@ export const navLinks = [
   //   title: "Testimonial",
   //   link: "#testimonial",
   // },
+];
+export const papers = [
+  {
+    name: "Unmasking Gender Bias in Recommendation Systems and Enhancing Category-Aware",
+    year: "2025",
+    conf: "WWW ’25",
+    link: "https://scholar.google.com.au/citations?view_op=view_citation&hl=en&user=r4-WC-UAAAAJ&citation_for_view=r4-WC-UAAAAJ:u-x6o8ySG0sC",
+  },
+  {
+    name: "The Pursuit of Fairness in Artificial Intelligence Models: A Survey",
+    year: "2024",
+    conf: "arxiv",
+    link: "https://arxiv.org/pdf/2403.17333",
+  },
 ];
 export const experience = [
   {
@@ -187,29 +201,38 @@ export const projects = [
 ];
 
 export const education = [
-  { title: "Doctor of Philosophy",
-  timeline: "Nov 2023 - Present",
-name:"Deakin University Australia",
-  link: "https://www.deakin.edu.au/",
-  imgLink:
-    "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/deakin.jpg",
-  results: (
-    // <p>
-    //   • Grade: H1 (First‐class Honours)<br></br>• CGPA: 3.84 WAM:80.818
-    // </p>
-    <p>Prposed Topic : Algorithmic Bias</p>
-  ),
-  details: (
-    // <p>
-    //   • Monash Faculty of Engineering Dean’s Honour List<br></br>• Monash
-    //   Women's Engineers Club Member 2022 <br></br>• Monash Women's Cricket
-    //   Club Member 2019<br></br>• Tech Support for HEARD mobile applcation
-    //   testing conducted by school of Pharmacy in July 2022 <br></br>• USM
-    //   Varsity Hackathon 2022 - Participant <br></br>• Shopee Code League 2022
-    //   - Participant <br></br>• Quick Hack 2022 - Participant
-    // </p>
-    <p>• Working with the <a href={"https://deakin-mlds.github.io/people.html"} className="underline text-blue-500 pointer cursor-pointer" >Machine Learning for Decision Support (MLDS) Group</a></p>
-  ),},
+  {
+    title: "Doctor of Philosophy",
+    timeline: "Nov 2023 - Present",
+    name: "Deakin University Australia",
+    link: "https://www.deakin.edu.au/",
+    imgLink: "https://s3.brilliant.com.bd/tahsin/kheyaPortfolio/deakin.jpg",
+    results: (
+      // <p>
+      //   • Grade: H1 (First‐class Honours)<br></br>• CGPA: 3.84 WAM:80.818
+      // </p>
+      <p>Prposed Topic : Algorithmic Bias</p>
+    ),
+    details: (
+      // <p>
+      //   • Monash Faculty of Engineering Dean’s Honour List<br></br>• Monash
+      //   Women's Engineers Club Member 2022 <br></br>• Monash Women's Cricket
+      //   Club Member 2019<br></br>• Tech Support for HEARD mobile applcation
+      //   testing conducted by school of Pharmacy in July 2022 <br></br>• USM
+      //   Varsity Hackathon 2022 - Participant <br></br>• Shopee Code League 2022
+      //   - Participant <br></br>• Quick Hack 2022 - Participant
+      // </p>
+      <p>
+        • Working with the{" "}
+        <a
+          href={"https://deakin-mlds.github.io/people.html"}
+          className="underline text-blue-500 pointer cursor-pointer"
+        >
+          Machine Learning for Decision Support (MLDS) Group
+        </a>
+      </p>
+    ),
+  },
   {
     name: "Monash University Malaysia",
     title: "Bachelor of Software Engineering",
@@ -258,9 +281,14 @@ name:"Deakin University Australia",
 ];
 
 export const work = [
-  {title:"Reinforcement Learning Models", webLink:"https://huggingface.co/tahsinkheya", 
-  imgLink:"", subtitle:"I've recently discovered a deep interest in the world of reinforcement learning! I'm currently diving into the Hugging Face course on deep reinforcement learning, eager to gain expertise in this domain. My ultimate goal? To leverage RL as a tool for mitigating bias in automated models. I'm still actively researching and learning, but I'm excited about the potential!"}
-,  {
+  {
+    title: "Reinforcement Learning Models",
+    webLink: "https://huggingface.co/tahsinkheya",
+    imgLink: "",
+    subtitle:
+      "I've recently discovered a deep interest in the world of reinforcement learning! I'm currently diving into the Hugging Face course on deep reinforcement learning, eager to gain expertise in this domain. My ultimate goal? To leverage RL as a tool for mitigating bias in automated models. I'm still actively researching and learning, but I'm excited about the potential!",
+  },
+  {
     title: "Brilliant Connect Ticketing System",
     webLink: "https://app-support.brilliant.com.bd/",
     imgLink:
@@ -337,10 +365,12 @@ export const skills = [
   {
     name: "Java",
     logo: <FaJava className="icon"></FaJava>,
-  }, {
+  },
+  {
     name: "Numpy",
     logo: <SiNumpy className="icon"></SiNumpy>,
-  },{
+  },
+  {
     name: "Scikitlearn",
     logo: <SiScikitlearn className="icon"></SiScikitlearn>,
   },
