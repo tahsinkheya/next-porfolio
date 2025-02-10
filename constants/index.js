@@ -3,7 +3,7 @@ import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 import { GrReactjs, GrDocker, GrOracle } from "react-icons/gr";
 import { TfiFaceSmile } from "react-icons/tfi";
 import { AiFillFileMarkdown } from "react-icons/ai";
-import { SiNumpy, SiScikitlearn } from "react-icons/si";
+import { SiNumpy, SiScikitlearn, SiGooglescholar } from "react-icons/si";
 import {
   TbBrandTailwind,
   TbBrandNextjs,
@@ -17,7 +17,11 @@ import { SiMui } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoDocker, IoLogoPython } from "react-icons/io";
 export const contact = [
-  { id: 1, icon: <FiGitlab />, link: "https://gitlab.com/tkhe19" },
+  {
+    id: 1,
+    icon: <SiGooglescholar />,
+    link: "https://scholar.google.com.au/citations?user=r4-WC-UAAAAJ&hl=en",
+  },
   { id: 2, icon: <BsGithub />, link: "https://github.com/tahsinkheya" },
   {
     id: 3,
@@ -40,10 +44,10 @@ export const navLinks = [
     title: "About",
     link: "#about",
   },
-  { id: "paper", title: "Paper", link: "#paper" },
+  { id: "paper", title: "Papers", link: "#paper" },
   {
     id: "skill",
-    title: "Skill",
+    title: "Skills",
     link: "#skill",
   },
   {
@@ -212,7 +216,7 @@ export const education = [
       // <p>
       //   • Grade: H1 (First‐class Honours)<br></br>• CGPA: 3.84 WAM:80.818
       // </p>
-      <p>Prposed Topic : Algorithmic Bias</p>
+      <p>Proposed Topic : Algorithmic Bias</p>
     ),
     details: (
       // <p>
@@ -231,6 +235,11 @@ export const education = [
         >
           Machine Learning for Decision Support (MLDS) Group
         </a>
+        <br></br>• Successfully completed the Confirmation of Candidature.
+        <br></br>• Friday Friends Leader for trimester 2 2024.
+        <br></br>• Delivered a talk for IEEE (Institute of Electrical and
+        Electronics Engineers) Deakin University Student Branch on Bias in AI
+        systems.
       </p>
     ),
   },
