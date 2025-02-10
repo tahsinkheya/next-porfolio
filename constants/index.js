@@ -40,6 +40,7 @@ export const navLinks = [
     title: "About",
     link: "#about",
   },
+  { id: "paper", title: "Paper", link: "#paper" },
   {
     id: "skill",
     title: "Skill",
